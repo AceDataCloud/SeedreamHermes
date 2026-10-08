@@ -1,0 +1,14 @@
+{
+  "name": "acedatacloud-seedream",
+  "version": "1.0.0",
+  "description": "Seedream 5.0 Lite text-to-image generation through your Ace Data Cloud account.",
+  "author": "AceDataCloud",
+  "requires_hermes": ">=0.21.6",
+  "provides_tools": [
+    "acedata_seedream_generate",
+    "acedata_seedream_task"
+  ],
+  "requires_env": [
+    "ACEDATACLOUD_API_KEY"
+  ]
+}
