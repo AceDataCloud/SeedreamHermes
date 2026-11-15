@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "4ebf0fa803b92a1bc8b41fb4d4cd3ce3aacf06a7",
+  "generator": "scripts/export_service.py",
+  "service": "seedream",
+  "consumer_repository": "https://github.com/AceDataCloud/SeedreamHermes",
+  "canonical_contract": "services/seedream.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_seedream",
+      "acedatacloud_single_seedream"
+    ],
+    "toolset": [
+      "acedatacloud-seedream",
+      "acedatacloud-single-seedream"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "e86c48d60bc22d100f2c1931e89313e381762423b1356f3173bb049409487714",
+  "generated_files": {
+    "__init__.py": "befe7ccc20f9dc0cd05d3c62fe25f036ab59371a82de41ef4edbc581af803aa5",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/seedream.json": "a2c94084b1dd2d0f311651822732879995f300df293cc35e7078c1438aa248d8",
+    "plugin.yaml": "c92e19f276e4b5ee3b463ee02f99062c99e5de903cc42162151bb4d10d9a778d",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "a3b2904d16e44ab70696555165f6b05465cfc978b5fe5160cbca9acebc22845d",
+    "tests/test_source_profile.py": "d29b78f9671e46fccfa1239c8f864ae282c19c8f7d9411b8b2ac2138373336ba",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "104f10f6b1fe31a18f266c599dd40a1d09714b68f3710a36862793b2d079e075",
+    "README.md": "c83e6d375a2a60448070bff26eb2a876161091be1e03e679bcb3891ff83d2175",
+    "readme/README_zh_Hans.md": "7f81a09a25adfd6144404f6386e2bec4b1295769d2823eafcc7ab32139ea30da"
+  }
+}
