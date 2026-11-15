@@ -1,12 +1,12 @@
 {
   "name": "acedatacloud-seedream",
   "version": "1.0.0",
-  "description": "Seedream 5.0 Lite text-to-image generation through your Ace Data Cloud account.",
   "author": "AceDataCloud",
-  "requires_hermes": ">=0.21.6",
+  "description": "Seedream by Ace Data Cloud: source-only single-service Git plugin. The primary operation spends paid Credits without a Hermes approval prompt; model options can increase cost. Prompts/reference URLs go to api.acedata.cloud. Never automatically retry a paid request.",
+  "requires_hermes": ">=0.23.1",
   "provides_tools": [
-    "acedata_seedream_generate",
-    "acedata_seedream_task"
+    "acedatacloud_single_seedream_generate",
+    "acedatacloud_single_seedream_task"
   ],
   "requires_env": [
     "ACEDATACLOUD_API_KEY"
